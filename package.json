@@ -1,0 +1,30 @@
+{
+  "name": "deck-service",
+  "version": "1.0.0",
+  "description": "Creates a deck. Handles deck actions such as shuffle and draw",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "serve": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "card",
+    "nosql",
+    "microservice"
+  ],
+  "author": "Bo Birdsong",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.2.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "typescript": "^4.5.5"
+  }
+}
